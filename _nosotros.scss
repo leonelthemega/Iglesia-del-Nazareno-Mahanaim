@@ -1,0 +1,536 @@
+/*Nosotros*/
+#nosotros-sec-header{
+    nav{
+        min-height: 50px;
+        background-color: black;
+        overflow: hidden;
+        
+        ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 60%;
+        list-style: none;
+        margin:0px 0px 0px 50px;
+
+        }
+        
+        .sec-nav-link{
+            text-decoration: none;
+            color: white;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            font-weight: bolder;
+            display: block;
+            padding: 15px 15px;
+           
+        }
+
+        .current{
+            background-color:$secondary-color;
+            color: white;
+        }
+
+        .sec-nav-link:hover{
+            background-color:$secondary-color;
+            color: white;
+        }
+      
+    }
+}
+
+/*Quienes Somos*/
+#nosotros{
+    body{
+        overflow-x: hidden;
+    }
+    .boxes{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        .box1{
+            width: 950px;
+            h1{
+                font-size: 2rem;
+                font-weight: normal;
+                padding-top: 60px;
+            }
+
+        }
+
+        .box2{
+            img{
+                width: 400px;
+                height: 980px;
+                padding-right: 20px;
+                padding-top: 150px;
+             
+
+            }
+           
+        }
+    }
+
+    .line{
+        border-top: 2px solid $secondary-color;
+        position: relative;
+        top: -190px;
+    }
+    .lin{
+        color: $secondary-color;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: x-large;
+
+    }
+
+    h1{
+        text-align: center;
+        padding-top: 20px;
+        font-size: 1.5rem;
+        color: $primary-color;
+        margin-bottom: 0px;
+        padding-bottom: 0;
+        
+    }
+
+    p{
+        text-align: justify;
+        font-size: 1.2rem;
+        line-height: 1.8;
+        padding: 10px 150px 30px 150px;
+        font-weight: bolder;
+       
+
+        span{
+            color: $secondary-color;
+        }
+    }
+}
+
+/*En Que Creemos*/
+#creemos{
+   .creencias{
+       display: grid;
+       grid-gap: 10px;
+       grid-template-columns: repeat(2, 1fr);
+       width: 80%;
+       margin: auto;
+       margin-bottom: 30px;
+
+       .creencias1{
+        box-shadow: $shadow;
+
+       }
+
+       .creencias2{
+        box-shadow: $shadow;
+
+       }
+
+       .creemos1{
+           p{
+               font-size: 1.4rem;
+               padding: 10px 20px;
+           }
+       }
+   }
+
+    .line{
+        border-top: 2px solid $secondary-color;
+        position: relative;
+        top: -190px;
+    }
+    .lin{
+        color: $secondary-color;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: x-large;
+
+    }
+
+    h1{
+        text-align: center;
+        padding-top: 60px;
+        font-weight: normal;
+        font-size: 2rem;
+        color: $primary-color;
+        margin-bottom: 0px;
+        padding-bottom: 0;
+        
+    }
+
+    p{
+        text-align: justify;
+        font-size: 1.3rem;
+        line-height: 1.8;
+        padding: 10px 150px 30px 150px;
+        font-weight: bolder;
+       
+
+        span{
+            color: $secondary-color;
+        }
+    }
+
+}
+
+/*Articulos de Fe*/
+#articulos{
+    min-height: 2000px;
+    .lin{
+        color: $secondary-color;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: x-large;
+
+    }
+
+    h1{
+        text-align: center;
+        padding-top: 60px;
+        font-size: 2rem;
+        color: $primary-color;
+        margin-bottom: 0px;
+        padding-bottom: 0;
+        font-weight: normal;
+        
+    }
+
+    p{
+        text-align: center;
+        font-size: 1.3rem;
+        line-height: 1.8;
+        padding: 10px 150px 30px 150px;
+        font-weight: bolder;
+    }
+
+    a{
+        margin-left: 630px;
+       
+    }
+
+    .fe{
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 90px;
+        width: 70%;
+        margin: auto;
+        
+
+
+        h2{
+        text-align: center;
+        padding-top: 150px;
+        font-size: 1.3rem;
+        color: $primary-color;
+        margin-bottom: 0px;
+        padding-bottom: 0;
+        
+        }
+
+    p{
+        text-align: justify;
+        font-size: 1.3rem;
+        line-height: 1.8;
+        padding: 10px 0px 30px 0px;
+        font-weight: bolder;
+        width: 600px;
+
+        span{
+            font-size: 0.9rem;
+            color: $secondary-color;
+        }
+    }
+
+    
+    }
+
+    .btn2{
+        padding: 15px 30px;
+    }
+   
+}
+
+/*Historia*/
+#historia{
+    .lin{
+        color: $secondary-color;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: x-large;
+
+    }
+
+    h1{
+        text-align: center;
+        padding-top: 60px;
+        font-size: 2rem;
+        color: $primary-color;
+        margin-bottom: 0px;
+        padding-bottom: 0;
+        font-weight: normal;
+        
+    }
+
+    p{
+        text-align: center;
+        font-size: 1.3rem;
+        line-height: 1.8;
+        padding: 10px 150px 30px 150px;
+        font-weight: bolder;
+    }
+
+    .historias{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        margin: 30px 0px;
+
+        .historia1{
+            p{
+                padding-top: 50px;
+                line-height: 2;
+            }
+        }
+        .historia2{
+            img{
+                width: 80%;
+
+            }
+        }
+    }
+}
+
+/*Media*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /*Nosotros*/
+    #second-header ul{
+        display: none;
+    }
+    #nosotros-sec-header{
+        nav{
+            min-height: 40px;
+            background-color: black;
+            overflow: hidden;
+            
+            ul{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            list-style: none;
+            margin: auto;
+    
+            }
+            .sec-nav-link{
+                font-size: 0.6rem; 
+            }
+        }
+    }
+
+    /*Quienes Somos*/
+    #nosotros{
+        .boxes{
+            grid-template-columns: 1fr;
+    
+            .box1{
+                width: 100%;
+                h1{
+                    font-size: 2rem;
+                    font-weight: normal;
+                    padding-top: 60px;
+                }
+    
+            }
+    
+            .box2{
+                img{
+                    width: 450px;
+                    height: 980px;
+                    padding-right: 0px;
+                    padding-left: 20px;
+                    padding-top: 50px;
+                    margin: auto;
+                }
+               
+            }
+        }
+
+        p{
+            text-align: justify;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            padding: 0px 15px;
+            font-weight: bolder;
+        }
+
+    }
+
+    /*Que Creemos*/
+    #creemos{
+        .creencias{
+            grid-template-columns:1fr;
+            width: 90%;
+            margin: auto;
+            margin-bottom: 30px;
+    
+     
+            .creemos1{
+                p{
+                    font-size: 1.2rem;
+                    padding: 10px 20px;
+                }
+            }
+        }
+     
+     
+         h1{ 
+             font-size: 1.8rem; 
+         }
+     
+         p{
+             text-align: justify;
+             font-size: 1.2rem;
+             line-height: 1.8;
+             padding: 0px 15px;
+             font-weight: bolder;
+         }
+     
+     }
+     
+     /*Articulos de Fe*/
+     #articulos{
+        min-height: 2650px;
+    
+        h1{
+            text-align: center;
+            padding-top: 60px;
+            font-size: 1.8rem;
+            color: $primary-color;
+            margin-bottom: 0px;
+            padding-bottom: 0;
+            font-weight: normal;
+            
+        }
+    
+        p{
+            text-align: center;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            padding: 20px 15px;
+            font-weight: bolder;
+        }
+    
+        a{
+            margin-left: 100px;
+           
+        }
+    
+        .fe{
+    
+            display: grid;
+            grid-template-columns: 1fr;
+            padding-top: 10px;
+            width: 90%;
+            margin: 30px auto;
+            
+    
+    
+            h2{
+            text-align: center;
+            padding-top: 50px;
+            font-size: 1.3rem;
+            color: $primary-color;
+            margin-bottom: 0px;
+            padding-bottom: 0;
+            
+            }
+    
+        p{
+            text-align: justify;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            padding: 0px 15px;
+            font-weight: bolder;
+            width: 100%;
+    
+            span{
+                font-size: 0.9rem;
+                color: $secondary-color;
+                padding: 0px 15px;
+            }
+        }
+    
+        
+        }
+    
+        .btn2{
+            padding: 15px 30px;
+        }
+
+        .bot{
+            margin-left: 170px;
+        }
+       
+    }
+
+    /*Historia*/
+    #historia{
+        .lin{
+            color: $secondary-color;
+            padding-bottom: 0px;
+            text-align: center;
+            font-size: x-large;
+    
+        }
+    
+        h1{
+            text-align: center;
+            padding-top: 60px;
+            font-size: 1.8rem;
+            color: $primary-color;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            font-weight: normal;
+            
+        }
+    
+        p{
+            text-align: center;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            padding: 0px 15px;
+            font-weight: bolder;
+        }
+    
+        .historias{
+            display: grid;
+            grid-template-columns: 1fr;
+            margin: auto;
+    
+            .historia1{
+                p{
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    line-height: 1.8;
+                }
+            }
+            .historia2{
+
+                img{
+                    width: 100%;
+                    padding-bottom: 20px;
+    
+                }
+            }
+        }
+    }
+
+    
+    
+
+
+}
+
+

@@ -1,0 +1,195 @@
+#contacto{
+    .contactos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        margin: auto;
+
+        p{
+            text-align: justify;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            padding: 10px 60px;
+            font-weight: bolder;
+
+            i{
+                color: $secondary-color;
+            }
+        }
+
+        h1{
+            font-size: 1.8rem;
+            color: $primary-color;
+            padding: 30px 50px;
+            
+        }
+        .lin{
+            color: $secondary-color;
+            padding-bottom: 10px;
+            font-size: x-large;
+    
+        }
+    }
+    
+
+    form{
+
+       
+        input[type="text"],    
+        input[type="email"]{
+        background: none;
+        border: none;
+        font-size: 1.6rem;
+        border-bottom: 2px solid #333;
+        width: 450px;
+        margin: 20px 30px;
+        color: black; 
+        }
+
+        input[type="submit"]{
+            color: white;
+            font-size: 1.5rem;
+            padding: 5px 15px;
+            margin: 30px 30px;
+            background: $secondary-color;
+            text-transform: uppercase;
+        }   
+
+        input[type="submit"]:hover{
+            opacity: 0.8;            
+        } 
+        
+        
+        input[type="text"]::placeholder,    
+        input[type="email"]::placeholder{
+            font-size: 1.5rem;
+        }
+        
+        
+
+        textarea{
+            width: 450px;
+            background: none;
+            margin-left: 30px;
+            margin-top: 30px;
+            
+        }
+        textarea::placeholder{
+            font-size: 1.5rem;
+
+        }
+    }
+
+   
+}
+
+.location{
+    iframe{
+        width: 100%;
+    }
+}
+
+
+/*Media*/
+@media only screen  and (max-width: 480px){
+
+    #of-showcase{
+        top: -175px;
+    }
+    #contacto{
+        .contactos{
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 90%;
+            margin: auto;
+    
+            p{
+                text-align: justify;
+                font-size: 1.2rem;
+                line-height: 1.8;
+                padding: 10px 15px;
+                font-weight: bolder;
+    
+                i{
+                    color: $secondary-color;
+                }
+            }
+    
+            h1{
+                font-size: 1.8rem;
+                color: $primary-color;
+                padding: 10px 50px;
+                text-align: center;
+                
+            }
+            .lin{
+                color: $secondary-color;
+                padding-bottom: 5px;
+                font-size: x-large;
+                text-align: center;
+        
+            }
+        }
+        
+    
+        form{
+    
+           
+            input[type="text"],    
+            input[type="email"]{
+            background: none;
+            border: none;
+            font-size: 1.3rem;
+            border-bottom: 2px solid #333;
+            width: 350px;
+            margin: 20px 30px;
+            color: black; 
+            }
+    
+            input[type="submit"]{
+                color: white;
+                font-size: 1.5rem;
+                padding: 5px 15px;
+                margin: 30px 30px;
+                background: $secondary-color;
+                text-transform: uppercase;
+            }   
+    
+            input[type="submit"]:hover{
+                opacity: 0.8;            
+            } 
+            
+            
+            input[type="text"]::placeholder,    
+            input[type="email"]::placeholder{
+                font-size: 1.5rem;
+            }
+            
+            
+    
+            textarea{
+                width: 350px;
+                background: none;
+                margin-left: 30px;
+                margin-top: 30px;
+                
+            }
+            textarea::placeholder{
+                font-size: 1.5rem;
+    
+            }
+        }
+    
+       
+    }
+    
+    .location{
+        iframe{
+            width: 100%;
+        }
+    }
+    
+
+
+
+}

@@ -1,0 +1,40 @@
+/*Buttons*/
+.btn1{
+    border-radius: 5px;
+    background-color: $secondary-color;
+    color: white !important;
+    padding: 3px 5px;
+    box-shadow: $shadow;
+    text-decoration: none;
+}
+
+.btn1:hover{
+    opacity: 0.8;
+    transition: $transition;
+
+}
+
+.btn2{
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: $secondary-color;
+    color: white;
+    padding: 5px 15px;
+    box-shadow: $shadow;
+}
+
+.btn2:hover{
+    opacity: 0.8;
+    transition: $transition;
+
+}
+
+.btn3{
+    color: $secondary-color;
+    text-decoration: none;
+}
+
+.btn3:hover{
+    text-decoration: underline;
+}
+

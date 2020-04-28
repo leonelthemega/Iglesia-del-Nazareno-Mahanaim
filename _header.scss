@@ -1,0 +1,112 @@
+/*Header*/
+
+#header{
+    #first-header{
+        min-height: 30px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 10px 0px;
+    }
+
+   
+    .social {
+        color: $primary-color;
+        margin-right: 15px;
+
+        a{
+            color: $primary-color;
+            text-decoration: none;
+            padding: 0px 2px;
+        }
+        a:hover{
+            color: $secondary-color;
+            transition: $transition;
+        }
+    }
+
+    .trans{
+        margin-left: 15px;
+        margin-right: 15px;
+        a{
+            color: $primary-color;
+            text-decoration: none;
+            padding: 0px 2px;
+        }
+        a:hover{
+            color: $secondary-color;
+            transition: $transition;
+        }
+    }
+
+    .ofr{
+        margin-left: 15px;
+    }
+    #second-header{
+        display: flex;
+        justify-content: space-between;
+
+        .logo{
+            img{
+                width: 90%;
+            }
+        }
+
+        nav{
+
+            ul{
+                list-style: none;
+                margin-top: 70px;
+                float: left;
+            
+            li{
+                display: inline;
+                padding: 0px 5px;
+
+                .nav-link,
+                .current{
+                    color: $secondary-color;
+                    position: relative;
+                    font-size: 1.3rem;
+                    text-decoration: none;
+                    font-weight: bolder;
+                }
+
+                .nav-link::before,
+                .current::before{
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    bottom: -.5rem;
+                    background-color: $primary-color;
+                    width: 100%;
+                    height: 2px;
+                    transform: scaleX(0);
+                    transform-origin: left;
+                    transition: transform 650ms;
+                }
+
+                .current::before{
+                    transform: scaleX(1);
+                }
+                
+                .nav-link:hover::before{
+                    transform: scaleX(1);
+                }
+
+                
+            
+                
+                } 
+            }
+        }   
+    }
+}
+
+.main-nav{
+    display: none;
+}
+
+.side-nav{
+    display: none;
+}
