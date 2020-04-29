@@ -308,26 +308,7 @@
     #second-header ul{
         display: none;
     }
-    #nosotros-sec-header{
-        nav{
-            min-height: 40px;
-            background-color: black;
-            overflow: hidden;
-            
-            ul{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            width: 100%;
-            list-style: none;
-            margin: auto;
     
-            }
-            .sec-nav-link{
-                font-size: 0.6rem; 
-            }
-        }
-    }
 
     /*Quienes Somos*/
     #nosotros{

@@ -2690,7 +2690,7 @@ footer .foot .righty-al .enlaces5 a:hover {
   .main-nav {
     display: block;
     position: absolute;
-    top: 160px;
+    top: 150px;
     right: 30px;
   }
   .side-nav {
@@ -2748,6 +2748,82 @@ footer .foot .righty-al .enlaces5 a:hover {
     margin-left: 70px;
 
   }
-  
+
+  /*Ofrenda*/
+  #of-showcase{
+    display: none;
+}
+  #main{
+    min-height: 980px;
+    
+  }
+  #main .cajases{
+    display: none;
+  }
+  #main .ofrendas .ofrenda {
+    width: 100%;
+  }
+  #main .ofrendas .ofrenda h1 {
+    margin-top: 15px;
+  }
+  #main .ofrendas .ofrenda #orar .btn1{
+    margin-bottom: 30px;
+  }
+
+  /*Contacto*/
+  #contacto .contactos form h1{
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 45px;
+  }
+  #contacto .contactos form .lin{
+    text-align: left;
+    margin-left: 110px;
+  }
+
+  #contacto .contactos form input[type="text"],    
+  #contacto .contactos form input[type="email"]{
+    background: none;
+    border: none;
+    font-size: 1.1rem;
+    border-bottom: 2px solid #333;
+    width: 250px;
+    margin: 30px 30px;
+    color: black; 
+  }
+
+  #contacto .contactos form input[type="submit"]{
+    color: white;
+    font-size: 1.1rem;
+    padding: 5px 15px;
+    margin: 30px 30px;
+    background: $secondary-color;
+    text-transform: uppercase;
+    }        
+
+    #contacto .contactos form input[type="text"]::placeholder,    
+    #contacto .contactos form input[type="email"]::placeholder{
+      font-size: 1.1rem;
+  }
+
+  #contacto .contactos form textarea{
+    width: 250px;
+  }
+
+  #contacto .contactos form textarea::placeholder{
+    font-size: 1.1rem;
+    
+  }
+  #contacto .contactos .informacion h1{
+    font-size: 1.5rem;
+  }
+
+  #contacto .contactos .informacion p{
+    font-size: 0.8rem;
+  }
+
+
+
+
 }
 /*# sourceMappingURL=style.css.map */
